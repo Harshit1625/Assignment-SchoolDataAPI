@@ -5,7 +5,6 @@ import schoolRoutes from './routes/school.route.js'
 import { errorResponse } from './utils/error.js'
 import db_pool from "./database/connect.js";
 
-
 config()
 
 const app = express()
